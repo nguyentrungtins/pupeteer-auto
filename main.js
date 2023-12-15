@@ -45,7 +45,7 @@ const main = async () => {
     await page.setViewport({width: 1080, height: 1024});
 
     // Navigate the page to a URL
-    await page.goto('https://b1lueprint.cyberlogitec.com.vn/');
+    await page.goto('https://blueprint.cyberlogitec.com.vn/');
 
     // Type into search box
     await page.type('#username', username);
