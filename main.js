@@ -38,7 +38,7 @@ const main = async () => {
     const username = 'tinnt'
     const password = '@1111'
     // Launch the browser and open a new blank page
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch({headless: 'new'});
     const page = await browser.newPage();
 
     // Set screen size
@@ -62,7 +62,7 @@ const main = async () => {
     const punchBtn = '//*[@id="checkInOutBody"]/div/div/div[1]/div[2]/div[1]/div/button';
     await page.waitForXPath(punchBtn);
     const button = await page.$x(punchBtn);
-    await randomDelay();
+    // await randomDelay();
     await button[0].click(punchBtn);
 
     await browser.close();
