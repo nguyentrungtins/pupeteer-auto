@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+.cache/
+# Optional: Logs and runtime data
+logs/
+*.log
+*.pid
+*.seed
+*.db
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: IDE-specific files
+.idea/
+.vscode/
+
+# Optional: Build output
+dist/
+build/
+*.js.map
+
+# Optional: Environment variables
+.env
+.env.local
+.env.*.local
+
+# Optional: Coverage directory used by tools like istanbul
+coverage/
+
+# Optional: Dependency lock files
+package-lock.json
+yarn.lock
+
+# Optional: TypeScript configuration file
+tsconfig.json
+
+# Optional: Editor configuration
+.editorconfig
+
+# Optional: Custom npm scripts
+scripts/
